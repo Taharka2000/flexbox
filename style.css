@@ -1,0 +1,15 @@
+.main{
+    height: 600px;
+    background-color: #EEE;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+.image{
+    flex-grow: 1;
+}
+.image:first-child{
+    flex-grow: 2;
+}
